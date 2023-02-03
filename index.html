@@ -1,28 +1,27 @@
 <html>
 <head>
-  <title> Ashoka University Valentine's Day Mixer </title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Ashoka University Valentine's Day Mixer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1> Ashoka University Valentine's Day Mixer </h1>
-  <form action="process.php" method="post">
-    <p> Please enter your details below: </p>
-    <label>Name:</label>
-    <input type="text" name="name" />
-    <label>Gender:</label>
-    <select name="gender">
-      <option value="male">Male</option>
-      <option value="female">Female</option>
-    </select>
-    <label>Comfort Food at Ashoka:</label>
-    <input type="text" name="comfort_food" />
-    <label>Favourite Quote by an Ashokan Professor:</label>
-    <input type="text" name="quote" />
-    <label>Favourite Webseries:</label>
-    <input type="text" name="webseries" />
-    <input type="submit" value="Submit" />
-
-  </form>
+  <div class="container">
+    <h1>Welcome to the Ashoka University Valentine's Day Mixer!</h1>
+    <p>We are here to help you find your perfect match. Please fill out the questionnaire below and we'll match you with someone you're compatible with.</p>
+    <form action="submit.php" method="post">
+      <label>What's your favorite comfort food at Ashoka?</label>
+      <input type="text" name="comfortFood" />
+      <label>Quote by an Ashokan professor that you love?</label>
+      <input type="text" name="quote" />
+      <label>What's your favorite webseries?</label>
+      <input type="text" name="webseries" />
+      <label>Do you prefer a male or female match?</label>
+      <select name="genderPreference">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <input type="submit" value="Submit" />
+    </form>
+  </div>
 </body>
 </html>
-
