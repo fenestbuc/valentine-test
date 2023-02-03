@@ -1,13 +1,27 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Ashoka Valentine's Day Mixer</title>
+  <title>Ashoka University Valentine's Day Mixer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Ashoka Valentine's Day Mixer</h1>
-    <p>Welcome to the Ashoka Valentine's Day Mixer! Here you can fill out a questionnaire and we will match you with someone special for the day.</p>
-    <form action="questionnaire.html" method="post">
-        <input type="submit" value="Start the questionnaire!" />
+  <div class="container">
+    <h1>Welcome to the Ashoka University Valentine's Day Mixer!</h1>
+    <p>We are here to help you find your perfect match. Please fill out the questionnaire below and we'll match you with someone you're compatible with.</p>
+    <form action="submit.php" method="post">
+      <label>What's your favorite comfort food at Ashoka?</label>
+      <input type="text" name="comfortFood" />
+      <label>Quote by an Ashokan professor that you love?</label>
+      <input type="text" name="quote" />
+      <label>What's your favorite webseries?</label>
+      <input type="text" name="webseries" />
+      <label>Do you prefer a male or female match?</label>
+      <select name="genderPreference">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <input type="submit" value="Submit" />
     </form>
+  </div>
 </body>
 </html>
