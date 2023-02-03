@@ -1,0 +1,46 @@
+body {
+    background-image: url("https://www.ashoka.edu.in/wp-content/uploads/2017/07/Ashoka-University-campus.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    padding: 2rem;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 600px;
+    padding: 2rem;
+    background-color: white;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    margin-top: 1rem;
+    background-color: #ff5252;
+    color: white;
+    font-size: 1.2rem;
+    border: 0;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
